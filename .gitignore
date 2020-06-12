@@ -72,6 +72,8 @@ coverage.xml
 # Scrapy stuff:
 .scrapy
 
+#activate virtual environment
+#source c:/Users/Yomi/Desktop/Project_Django/venv/Scripts/activate
 # Sphinx documentation
 docs/_build/
 
@@ -80,7 +82,7 @@ target/
 
 # pyenv
 .python-version
-
+.env
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies

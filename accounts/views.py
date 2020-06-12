@@ -56,7 +56,7 @@ def login(request):
             return redirect ('dashboard') 
         else:
             messages.error(request, 'Invalid login')
-            return redirect('login/')
+            return redirect('login')
     else:
         return render(request, 'accounts/login.html')
     return HttpResponse(request)   
